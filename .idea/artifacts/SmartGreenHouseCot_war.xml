@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="SmartGreenHouseCot:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>SmartGreenHouseCot</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="smartgreen.war">
+      <element id="artifact" artifact-name="SmartGreenHouseCot:war exploded" />
+    </root>
+  </artifact>
+</component>
