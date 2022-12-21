@@ -4,72 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c25b32d-2fc3-4ad8-8ecf-8b2f69d7e677" name="Changes" comment="push">
-      <change afterPath="$PROJECT_DIR$/Docs/Concept notebook.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Docs/ScopeStatement.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/WEB-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Controller/HelloWorldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/Sensor$SensorBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/Sensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/SensorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Repository/SensorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Security/UserAlreadyExist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Service/SensorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/smartgreen/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/WEB-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/WEB-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Controller/HelloWorldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Sensor$SensorBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Sensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/SensorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/SensorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/UserAlreadyExist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Service/SensorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/antlr4-runtime-4.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/artemis-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/artemis-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/bson-4.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-query-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-driver-commons-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-query-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mapping-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mapping-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-core-4.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-sync-4.0.3.jar" beforeDir="false" />
+    <list default="true" id="1c25b32d-2fc3-4ad8-8ecf-8b2f69d7e677" name="Changes" comment="New changelist">
+      <change afterPath="$PROJECT_DIR$/smartgreen.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,6 +33,7 @@
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="RESET_MODE" value="MIXED" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -114,30 +53,31 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/firas/IdeaProjects/SmartGreenHouseCot&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "C:/Users/firas/IdeaProjects/SmartGreenHouseCot",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\target\smartgreen\META-INF" />
@@ -185,7 +125,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671621435273</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="New changelist">
+      <created>1671625509754</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1671625509754</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -221,6 +168,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="push" />
-    <option name="LAST_COMMIT_MESSAGE" value="push" />
+    <MESSAGE value="New changelist" />
+    <option name="LAST_COMMIT_MESSAGE" value="New changelist" />
   </component>
 </project>
