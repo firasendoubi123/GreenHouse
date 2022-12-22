@@ -4,6 +4,8 @@ package smartgreen.Entity;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
+import jakarta.security.enterprise.identitystore.Pbkdf2PasswordHash;
+import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import smartgreen.Entity.Role;
@@ -44,6 +46,24 @@ public class User  {
     public String getPassword() {
         return password;
     }
+    public void add(Set<Role> roles) {
+        if (this.roles == null) {
+            this.roles = new HashSet<>();
+        }
+        this.roles.addAll(roles);
+    }
+
+    public void remove(Set<Role> roles) {
+        if (this.roles == null) {
+            this.roles = new HashSet<>();
+        }
+        this.roles.removeAll(roles);
+    }
+
+    public void updatePassword(String password, Pbkdf2PasswordHash passwordHash) {
+        this.password = passwordHash.generate(password.toCharArray());
+    }
+
     @Override
     public String toString() {
         return  "Id = " +Id +
@@ -68,6 +88,7 @@ public class User  {
         private String password;
         private String telephone;
         private Set<Role> roles;
+
 
 
         private UserBuilder() {

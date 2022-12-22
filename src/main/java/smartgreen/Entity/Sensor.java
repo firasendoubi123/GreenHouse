@@ -3,13 +3,17 @@ package smartgreen.Entity;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
+import java.util.*;
 @Entity
 public class Sensor {
     @Id
     private  Integer id ;
 
-    @Column("sensor_type")
+    @Column()
     private  SensorType type ;
+
+    @Column()
+    private Set<Double> values =new HashSet<>() ;
 
     public Integer getId() {
         return id;
@@ -17,6 +21,9 @@ public class Sensor {
 
     public SensorType getType() {
         return type;
+    }
+    public Set<Double> getValues() {
+        return values;
     }
 
     @Override

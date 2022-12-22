@@ -25,7 +25,7 @@
         <dependency>
             <groupId>jakarta.platform</groupId>
             <artifactId>jakarta.jakartaee-api</artifactId>
-            <version>10.0.0</version>
+            <version>${jakarta.ee.api.version}</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -44,6 +44,11 @@
             <artifactId>mongodb-driver</artifactId>
             <version>${jakarta.nosql.version}</version>
         </dependency>
+        <dependency>
+            <groupId>com.auth0</groupId>
+            <artifactId>java-jwt</artifactId>
+            <version>4.2.1</version>
+        </dependency>
 
 
     </dependencies>
@@ -58,6 +63,12 @@
                     <failOnMissingWebXml>false</failOnMissingWebXml>
                     <packagingExcludes>pom.xml</packagingExcludes>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.4.0</version>
+
             </plugin>
 
         </plugins>
