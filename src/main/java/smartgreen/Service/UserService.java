@@ -11,8 +11,7 @@ import java.util.*;
 
 @ApplicationScoped
 public class  UserService {
-    @Inject
-    @Database(DatabaseType.DOCUMENT)
+
     private UserRepository repository;
     public void create(User user) {
         if (repository.existsById(user.getId())) {

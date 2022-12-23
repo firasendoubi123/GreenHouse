@@ -24,6 +24,8 @@ public class User  {
     private String telephone;
     @Column
     private Set<Role> roles;
+    private Set<GreenHouse> houses;
+
 
     public Integer getId() {
 
@@ -43,6 +45,9 @@ public class User  {
     public Set<Role> getRoles() {
         return roles;
     }
+    public Set<GreenHouse> getHouses() {
+        return houses;
+    }
     public String getPassword() {
         return password;
     }
@@ -58,6 +63,12 @@ public class User  {
             this.roles = new HashSet<>();
         }
         this.roles.removeAll(roles);
+    }
+    public void addHouse(Set<GreenHouse> houses) {
+        if (this.houses == null) {
+            this.houses = new HashSet<>();
+        }
+        this.houses.addAll(houses);
     }
 
     public void updatePassword(String password, Pbkdf2PasswordHash passwordHash) {
@@ -88,6 +99,8 @@ public class User  {
         private String password;
         private String telephone;
         private Set<Role> roles;
+
+        private Set<GreenHouse> houses;
 
 
 
@@ -123,6 +136,11 @@ public class User  {
             this.roles = roles;
             return this;
         }
+        public UserBuilder withHouses(Set<GreenHouse> houses) {
+            this.houses = houses;
+            return this;
+        }
+
 
 
 
@@ -133,6 +151,7 @@ public class User  {
             user.username = username;
             user.email = email;
             user.telephone = telephone;
+            user.houses = houses;
             return user;
         }
     }
