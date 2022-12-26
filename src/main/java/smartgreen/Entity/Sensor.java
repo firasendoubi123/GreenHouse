@@ -11,7 +11,7 @@ public class Sensor {
 
     @Column()
     private  SensorType type ;
-
+    @Column
     private  Integer HouseId ;
 
 
@@ -21,6 +21,10 @@ public class Sensor {
     public Integer getId() {
         return id;
     }
+    public Integer getHouseId() {
+        return HouseId;
+    }
+
 
 
     public SensorType getType() {
@@ -46,16 +50,16 @@ public class Sensor {
 
         private Integer houseId;
 
-        public SensorBuilder withId(){
+        public SensorBuilder withId(Integer id){
             this.id = id;
             return this;
         }
 
-        public SensorBuilder withType(){
+        public SensorBuilder withType(SensorType type){
             this.type = type;
             return this ;
         }
-        public SensorBuilder withHouse(){
+        public SensorBuilder withHouse(Integer houseId){
             this.houseId = houseId;
             return this ;
         }

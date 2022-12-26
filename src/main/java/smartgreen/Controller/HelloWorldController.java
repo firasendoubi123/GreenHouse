@@ -21,6 +21,7 @@ public class HelloWorldController {
     @PermitAll
     @Produces("text/plain")
     public String everyOne() {
+
         return "Hello  everyone";
     }
 

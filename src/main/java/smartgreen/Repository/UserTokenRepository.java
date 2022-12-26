@@ -11,6 +11,7 @@ import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Optional;
 
 
+
 public interface UserTokenRepository extends Repository<UserToken, String> {
 
 

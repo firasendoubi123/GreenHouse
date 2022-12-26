@@ -2,6 +2,7 @@ package smartgreen.Controller;
 
 
 
+import smartgreen.Entity.GreenHouse;
 import smartgreen.Security.UserAlreadyExist;
 import smartgreen.Entity.User;
 import smartgreen.Service.UserService;
@@ -32,7 +33,12 @@ public class UserController {
     public User findById(@PathParam("id") Integer id) {
         return userService.findById(id);
     }
+    @GET
+    @Path("/{username}/greenhouse")
+    public Set<GreenHouse> getHouses(@PathParam("username") String username){
+        return userService.findHouses(username);
 
+    }
 
     @GET
     @Path("users")
