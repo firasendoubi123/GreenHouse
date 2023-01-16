@@ -8,7 +8,8 @@ public class GreenHouse {
     @Column
     private String username;
 
-    public int getId() {
+    public Integer getId() {
+
         return Id;
     }
 
@@ -16,18 +17,20 @@ public class GreenHouse {
         return username;
     }
     public static GreenHouseBuilder builder(){
+
         return new GreenHouseBuilder();
     }
+
     public static class GreenHouseBuilder {
         private Integer Id;
         private String username;
 
-        public GreenHouseBuilder withId (){
+        public GreenHouseBuilder withId (Integer Id){
              this.Id = Id;
              return this;
 
         }
-        public GreenHouseBuilder withUsername (){
+        public GreenHouseBuilder withUsername (String username){
             this.username = username;
             return this;
 

@@ -5,6 +5,7 @@ import jakarta.enterprise.inject.Model;
 import jakarta.inject.Inject;
 import jakarta.nosql.mapping.Database;
 import jakarta.nosql.mapping.DatabaseType;
+import jakarta.nosql.mapping.document.DocumentTemplate;
 import smartgreen.Entity.Role;
 import smartgreen.Entity.User;
 import smartgreen.Entity.GreenHouse;
@@ -20,11 +21,11 @@ import java.util.*;
 @ApplicationScoped
 public class  UserService {
     @Inject
-    @Database(DatabaseType.DOCUMENT)
     private UserRepository repository;
     @Inject
-    @Database(DatabaseType.DOCUMENT)
     private GreenHouseRepository HouseRepository;
+
+
     public User create(User user) {
         if (user.getRoles().contains(Role.USER)) {
             throw new UserNotAuthorized( "User is not Authorized");

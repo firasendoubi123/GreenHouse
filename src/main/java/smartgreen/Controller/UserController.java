@@ -26,6 +26,7 @@ public class UserController {
     @POST
     @Path("/signup")
     public void createUser(@Valid User user){
+
         userService.create(user);
     }
     @GET

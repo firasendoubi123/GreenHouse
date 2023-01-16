@@ -104,8 +104,7 @@ public class User  {
 
 
 
-        private UserBuilder() {
-        }
+
         public UserBuilder withId(Integer id) {
             this.id = id;
             return this;

@@ -13,7 +13,7 @@ import java.util.List;
 @ApplicationScoped
 public class SensorService  {
     @Inject
-    @Database(DatabaseType.DOCUMENT)
+
     private SensorRepository repository;
 
     public void createsensor(Sensor sensor){

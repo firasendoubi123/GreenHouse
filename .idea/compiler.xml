@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="smartgreen" target="17" />
+      <module name="smartgreen" target="11" />
       <module name="SmartGreenHouseCot" target="17" />
     </bytecodeTargetLevel>
   </component>
