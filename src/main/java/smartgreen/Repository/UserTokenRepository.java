@@ -1,13 +1,10 @@
 package smartgreen.Repository;
 
-import jakarta.decorator.Decorator;
-import jakarta.decorator.Delegate;
 import jakarta.nosql.mapping.Param;
 import jakarta.nosql.mapping.Query;
 import jakarta.nosql.mapping.Repository;
-import smartgreen.Security.UserToken;
+import smartgreen.Security.Oauth.UserToken;
 
-import jakarta.enterprise.context.ApplicationScoped;
 import java.util.Optional;
 
 

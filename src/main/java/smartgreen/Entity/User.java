@@ -4,33 +4,58 @@ package smartgreen.Entity;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.security.enterprise.identitystore.Pbkdf2PasswordHash;
+import jakarta.json.bind.annotation.JsonbVisibility;
+
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;
 import smartgreen.Entity.Role;
 @Entity
+
 public class User  {
-    @Id
-    private int Id;
-    @Column
+
+    @Column("username")
     private String username;
-    @Column
+    @Id("email")
     private String email;
-    @Column
+    @Column("password")
     private String password;
 
-    @Column
+    @Column("telephone")
     private String telephone;
-    @Column
+    @Column("roles")
     private Set<Role> roles;
+    @Column("houses")
+
     private Set<GreenHouse> houses;
 
-
-    public Integer getId() {
-
-        return Id ;
+    public void setUsername(String username) {
+        this.username = username;
     }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setPassword(String password) {
+        this.password = password;
+    }
+
+    public void setTelephone(String telephone) {
+        this.telephone = telephone;
+    }
+
+    public void setRoles(Set<Role> roles) {
+        this.roles = roles;
+    }
+
+    public void setHouses(Set<GreenHouse> houses) {
+        this.houses = houses;
+    }
+
     public String getUsername() {
 
         return username;
@@ -77,7 +102,7 @@ public class User  {
 
     @Override
     public String toString() {
-        return  "Id = " +Id +
+        return
                 "user='" + username + ' ' +
                 "email='" + email + ' ' +
                 "Phone='" + telephone + ' ' +
@@ -90,7 +115,6 @@ public class User  {
         return new UserBuilder();
     }
     public static class UserBuilder {
-        private Integer id;
         private String username;
 
         private String email;
@@ -105,10 +129,7 @@ public class User  {
 
 
 
-        public UserBuilder withId(Integer id) {
-            this.id = id;
-            return this;
-        }
+
 
         public UserBuilder withUserName(String username) {
             this.username = username;
@@ -145,7 +166,6 @@ public class User  {
 
         public User build() {
             User user = new User();
-            user.Id = id;
             user.roles = roles;
             user.username = username;
             user.email = email;

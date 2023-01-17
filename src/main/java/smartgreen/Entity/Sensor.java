@@ -1,9 +1,10 @@
 package smartgreen.Entity;
 
+import jakarta.json.JsonValue;
 import jakarta.nosql.mapping.Column;
 import jakarta.nosql.mapping.Entity;
 import jakarta.nosql.mapping.Id;
-import java.util.*;
+
 @Entity
 public class Sensor {
     @Id
@@ -16,7 +17,7 @@ public class Sensor {
 
 
     @Column()
-    private Set<Double> values =new HashSet<>() ;
+    private double values  ;
 
     public Integer getId() {
         return id;
@@ -25,12 +26,26 @@ public class Sensor {
         return HouseId;
     }
 
-
-
-    public SensorType getType() {
-        return type;
+    public void setId(Integer id) {
+        this.id = id;
     }
-    public Set<Double> getValues() {
+
+    public void setType(SensorType type) {
+        this.type = type;
+    }
+
+    public void setHouseId(Integer houseId) {
+        HouseId = houseId;
+    }
+
+    public void setValues(double values) {
+        this.values = values;
+    }
+
+    public String getType() {
+        return String.valueOf(type);
+    }
+    public double getValue() {
         return values;
     }
 
@@ -55,8 +70,8 @@ public class Sensor {
             return this;
         }
 
-        public SensorBuilder withType(SensorType type){
-            this.type = type;
+        public SensorBuilder withType(String type){
+            this.type = SensorType.valueOf(type);
             return this ;
         }
         public SensorBuilder withHouse(Integer houseId){

@@ -7,9 +7,9 @@ import jakarta.enterprise.context.ApplicationScoped;
 
 @ApplicationScoped
 
-public interface UserRepository  extends Repository<User, Integer> {
+public interface UserRepository  extends Repository<User, String> {
 
-    User findByUserId(Integer Id);
+    User findByUserId(String email);
     List<User> findAll();
 
 }

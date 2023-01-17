@@ -30,9 +30,10 @@ public class UserController {
         userService.create(user);
     }
     @GET
-    @Path("/single/{id}")
-    public User findById(@PathParam("id") Integer id) {
-        return userService.findById(id);
+    @Path("/single/{email}")
+    public User findById(@PathParam("email") String email) {
+
+        return userService.findById(email);
     }
     @GET
     @Path("/{username}/greenhouse")
@@ -47,11 +48,11 @@ public class UserController {
     public List<User> getUsers() {
         return userService.getUser() ;
     }
-    @Path("delete/{id}")
+    @Path("delete/{email}")
     @DELETE
     @RolesAllowed("ADMIN")
-    public void delete(@PathParam("id") Integer id) {
-        userService.delete(id);
+    public void delete(@PathParam("email") String email) {
+        userService.delete(email);
     }
 
 }

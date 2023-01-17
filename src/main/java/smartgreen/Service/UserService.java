@@ -21,8 +21,10 @@ import java.util.*;
 @ApplicationScoped
 public class  UserService {
     @Inject
+    @Database(DatabaseType.DOCUMENT)
     private UserRepository repository;
     @Inject
+    @Database(DatabaseType.DOCUMENT)
     private GreenHouseRepository HouseRepository;
 
 
@@ -32,12 +34,11 @@ public class  UserService {
 
         }
 
-        if (repository.existsById(user.getId())) {
-            throw new UserAlreadyExist("There is an user with this id: " + user.getId());
+        if (repository.existsById(user.getEmail())) {
+            throw new UserAlreadyExist("There is an user with this id: " + user.getEmail());
         }
         else{
             User user1 = User.builder()
-                    .withId(user.getId())
                     .withUserName(user.getUsername())
                     .withEmail(user.getEmail())
                     .withPassword(user.getPassword())
@@ -49,13 +50,13 @@ public class  UserService {
         return repository.findAll();
     }
 
-    public void delete(Integer id) {
+    public void delete(String email) {
 
-        repository.deleteById(id);
+        repository.deleteById(email);
 
     }
-    public User findById( Integer id){
-        return repository.findByUserId(id);
+    public User findById( String email){
+        return repository.findByUserId(email);
     }
     public Set<GreenHouse> findHouses(String username)  {
         return HouseRepository.findByUserName(username);
