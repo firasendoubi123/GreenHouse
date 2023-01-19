@@ -1,5 +1,5 @@
 package smartgreen.Entity;
-
+import smartgreen.Entity.Role;
 import java.util.Set;
 
 public class RoleDTO {

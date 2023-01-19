@@ -10,8 +10,6 @@ import smartgreen.Entity.Role;
 import smartgreen.Security.Oauth.OauthRequest;
 import smartgreen.Security.Oauth.UserToken;
 import smartgreen.Security.Oauth.RemoveToken;
-import smartgreen.Security.UserAlreadyExist;
-import smartgreen.Security.UserNotFound;
 
 
 
@@ -62,7 +60,7 @@ public class SecurityService {
 
     public void create(User userDTO) {
         if (repository.existsById(userDTO.getEmail())) {
-            throw new UserAlreadyExist("There is an user with this id: " + userDTO.getEmail());
+            throw new UserAlreadyExistException("There is an user with this id: " + userDTO.getEmail());
         } else {
             DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
             LocalDateTime now = LocalDateTime.now();
@@ -95,11 +93,11 @@ public class SecurityService {
     }
 
 
-    public void addRole(String id, Role dto) {
+    public void addRole(String id, RoleDTO dto) {
         final User user = repository.findById(id)
                 .orElseThrow(() -> new UserNotFound(id));
 
-        user.add(dto.getRole());
+        user.add(dto.getRoles());
         repository.save(user);
 
     }
@@ -116,15 +114,6 @@ public class SecurityService {
         final User user = getLoggedUser();
         User dto = toDTO(user);
         return dto;
-    }
-
-    public List<User> getUsers() {
-        return repository.findAll()
-                .map(this::toDTO)
-                .collect(Collectors.toList());
-    }
-    public int numberUsers(){
-        return getUsers().size();
     }
 
 

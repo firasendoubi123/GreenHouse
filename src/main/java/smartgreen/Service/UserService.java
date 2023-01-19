@@ -10,7 +10,7 @@ import smartgreen.Entity.Role;
 import smartgreen.Entity.User;
 import smartgreen.Entity.GreenHouse;
 
-import smartgreen.Security.UserAlreadyExist;
+import smartgreen.Security.UserAlreadyExistException;
 import smartgreen.Security.UserNotAuthorized;
 
 import smartgreen.Repository.UserRepository;
@@ -35,7 +35,7 @@ public class  UserService {
         }
 
         if (repository.existsById(user.getEmail())) {
-            throw new UserAlreadyExist("There is an user with this id: " + user.getEmail());
+            throw new UserAlreadyExistException("There is an user with this id: " + user.getEmail());
         }
         else{
             User user1 = User.builder()

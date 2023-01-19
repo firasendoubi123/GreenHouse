@@ -3,7 +3,7 @@ package smartgreen.Controller;
 
 
 import smartgreen.Entity.GreenHouse;
-import smartgreen.Security.UserAlreadyExist;
+import smartgreen.Security.UserAlreadyExistException;
 import smartgreen.Entity.User;
 import smartgreen.Service.UserService;
 
