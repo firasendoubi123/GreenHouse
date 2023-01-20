@@ -7,11 +7,10 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="SmartGreenHouseCot" />
-        <module name="smartgreen" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="smartgreen" target="11" />
+      <module name="SmartGreenHouse" target="11" />
       <module name="SmartGreenHouseCot" target="17" />
     </bytecodeTargetLevel>
   </component>

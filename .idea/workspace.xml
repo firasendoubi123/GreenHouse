@@ -5,85 +5,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1c25b32d-2fc3-4ad8-8ecf-8b2f69d7e677" name="Changes" comment="Push">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_validation_jakarta_validation_api_3_0_2.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Security/SecurityController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Security/UserAlreadyExistException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/smartgreen_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/smartgreen_war_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_websocket_jakarta_websocket_api_2_1_0.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/app-with-api/missing.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/app-with-api/pages/authentication/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/pages/authentication/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/smartgreen.iml" beforeDir="false" afterPath="$PROJECT_DIR$/smartgreen.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Entity/RoleDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Entity/RoleDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Repository/UserTokenRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Repository/UserTokenRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Security/Oauth/OauthAuthentication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Security/SecurityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Security/SecurityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Security/UserAlreadyExist.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/nb-configuration.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen.war" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/META-INF/beans.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/META-INF/microprofile-config.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Controller/HelloworldController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Controller/SensorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Controller/UserController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/GreenHouse$GreenHouseBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/GreenHouse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Sensor$SensorBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/Sensor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/SensorType.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/User$UserBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/JAXRSConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/GreenHouseRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/SensorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Repository/UserTokenRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/AccessToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/RefreshToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/Token.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/UserAlreadyExist.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/UserJWT.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/UserNotAuthorized.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Security/UserToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Service/SensorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/classes/smartgreen/Service/UserService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/jboss-web.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/jnosql.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/antlr4-runtime-4.7.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/artemis-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/artemis-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/bson-4.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/communication-query-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-driver-commons-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/diana-query-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jackson-annotations-2.13.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jackson-core-2.13.4.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jackson-databind-2.13.4.2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jakarta.annotation-api-2.1.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jakarta.json-api-2.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jakarta.security.enterprise-api-3.0.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/jakarta.ws.rs-api-3.1.0.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/java-jwt-4.2.1.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mapping-core-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mapping-document-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-1.0.0-b2.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-core-4.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/lib/mongodb-driver-sync-4.0.3.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/smartgreen/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app-with-api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details-script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Service/MqttConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Service/MqttConnection.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/microprofile-config.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,35 +61,36 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/firas/IdeaProjects/SmartGreenHouseCot",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.externalResources"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/firas/IdeaProjects/SmartGreenHouseCot/src/main/resources/META-INF&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
   },
-  "keyToStringList": {
-    "ChangesTree.GroupingKeys": [
-      "directory"
+  &quot;keyToStringList&quot;: {
+    &quot;ChangesTree.GroupingKeys&quot;: [
+      &quot;directory&quot;
     ],
-    "DatabaseDriversLRU": [
-      "mongo"
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mongo&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\resources\META-INF" />
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\target\smartgreen\META-INF" />
       <recent name="beans.xml microprofile-config.properties" />
     </key>
@@ -222,7 +153,8 @@
       <workItem from="1673816527785" duration="1244000" />
       <workItem from="1673863361013" duration="12468000" />
       <workItem from="1673950472419" duration="10579000" />
-      <workItem from="1674156307572" duration="9095000" />
+      <workItem from="1674156307572" duration="10786000" />
+      <workItem from="1674235153728" duration="1739000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1671621323863</created>
@@ -308,7 +240,14 @@
       <option name="project" value="LOCAL" />
       <updated>1673987975161</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Push">
+      <created>1674166935326</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1674166935326</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

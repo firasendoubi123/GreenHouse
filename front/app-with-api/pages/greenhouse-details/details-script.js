@@ -59,5 +59,5 @@ fetch(API_ENDPOINT + `/${greenHouseId}/sensors`)
 logoutButton.addEventListener("click", function (event) {
   event.preventDefault();
   localStorage.removeItem("signed-user");
-  window.location = "../authentication/login.html";
+  window.location = "front/app-with-api/pages/authentication/login.html";
 });
