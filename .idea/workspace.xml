@@ -4,17 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1c25b32d-2fc3-4ad8-8ecf-8b2f69d7e677" name="Changes" comment="Push">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/beans.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/META-INF/microprofile-config.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/app-with-api/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details-script.js" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details-script.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details.html" beforeDir="false" afterPath="$PROJECT_DIR$/front/app-with-api/pages/greenhouse-details/details.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/smartgreen/Service/MqttConnection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/smartgreen/Service/MqttConnection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/META-INF/microprofile-config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/META-INF/microprofile-config.properties" afterDir="false" />
-    </list>
+    <list default="true" id="1c25b32d-2fc3-4ad8-8ecf-8b2f69d7e677" name="Changes" comment="Push" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,33 +51,34 @@
     <option name="showMembers" value="true" />
     <option name="showVisibilityIcons" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/firas/IdeaProjects/SmartGreenHouseCot/src/main/resources/META-INF&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.externalResources&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "11",
+    "last_opened_file_path": "C:/Users/firas/IdeaProjects/SmartGreenHouseCot/src/main/resources/META-INF",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.externalResources"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ],
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mongo&quot;
+    "DatabaseDriversLRU": [
+      "mongo"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\resources\META-INF" />
@@ -95,11 +86,11 @@
       <recent name="beans.xml microprofile-config.properties" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\GreenHouse" />
+      <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\SmartGreenHouse" />
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\webapp\META-INF" />
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot" />
       <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\webapp\WEB-INF" />
-      <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\webapp" />
-      <recent name="C:\Users\firas\IdeaProjects\SmartGreenHouseCot\src\main\resources\META-INF" />
     </key>
   </component>
   <component name="RunManager">
@@ -155,6 +146,7 @@
       <workItem from="1673950472419" duration="10579000" />
       <workItem from="1674156307572" duration="10786000" />
       <workItem from="1674235153728" duration="1739000" />
+      <workItem from="1674247227831" duration="332000" />
     </task>
     <task id="LOCAL-00001" summary="push">
       <created>1671621323863</created>
@@ -247,7 +239,14 @@
       <option name="project" value="LOCAL" />
       <updated>1674166935326</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Push">
+      <created>1674247529996</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1674247529996</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -322,19 +321,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/smartgreen/Entity/User.java</url>
+          <url>file://$PROJECT_DIR$/GreenHouse/src/main/java/smartgreen/Entity/User.java</url>
           <line>82</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/smartgreen/Service/MqttConnection.java</url>
+          <url>file://$PROJECT_DIR$/GreenHouse/src/main/java/smartgreen/Service/MqttConnection.java</url>
           <line>70</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/smartgreen/Controller/HelloworldController.java</url>
+          <url>file://$PROJECT_DIR$/GreenHouse/src/main/java/smartgreen/Controller/HelloworldController.java</url>
           <line>17</line>
-          <properties class="smartgreen.Controller.HelloworldController" method="main">
+          <properties class="smartgreen.Controller.HelloworldController">
             <option name="EMULATED" value="true" />
             <option name="WATCH_EXIT" value="false" />
           </properties>

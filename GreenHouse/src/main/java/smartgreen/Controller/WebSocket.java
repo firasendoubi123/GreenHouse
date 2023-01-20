@@ -40,8 +40,8 @@ public class WebSocket {
                     new MemoryPersistence());
 
             MqttConnectOptions mqttConnectOptions = new MqttConnectOptions();
-            mqttConnectOptions.setUserName("jassem");
-            mqttConnectOptions.setPassword("jassem".toCharArray());
+            mqttConnectOptions.setUserName("firas");
+            mqttConnectOptions.setPassword("firas123".toCharArray());
             mqttConnectOptions.setSocketFactory(SSLSocketFactory.getDefault());
 
             client.connect(mqttConnectOptions);
@@ -78,11 +78,10 @@ public class WebSocket {
     public static void broadcastMessage(Sensor sensor) {
         for (Session session : sessions) {
             try {
-                System.out.println("DONEEEEEE!!!!!");
                 session.getBasicRemote().sendObject(sensor);
 
             } catch (IOException | EncodeException e) {
-                System.out.println("BYYYYYYYYYE!!!!!");
+
                 e.printStackTrace();
             }
         }
