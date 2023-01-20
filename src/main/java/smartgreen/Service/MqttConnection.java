@@ -34,7 +34,7 @@ public class MqttConnection {
 
             //CLIENT CONNECTION OPTIONS
             MqttClient client = new MqttClient(
-                    "https://34.125.226.120/:8083",
+                    "api.greenhousecot.me:8083",
                     MqttClient.generateClientId(),
                     new MemoryPersistence());
 
